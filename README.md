@@ -10,6 +10,7 @@ User-Friendly Interface: The form is styled with a clean and modern design.
 Client-Side Logic: All validation logic runs directly in the browser, making it fast and responsive.
 
 🛠️ Technologies Used
+
 HTML: Structures the web page and the input form.
 
 CSS: Styles the application, including a custom background and a container with shadow effects.
@@ -112,8 +113,9 @@ stages:
               appName: 'first'
               package: '$(Pipeline.Workspace)/drop'
               deploymentMethod: 'auto'
+```
 
-
+##
 🌐 Azure Deployment
 This project is configured for continuous deployment using Azure DevOps Pipelines to an Azure Web App.
 
@@ -157,6 +159,8 @@ For Local Development
 Clone the repository:
 
 Bash
+
+
 
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
